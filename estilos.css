@@ -1,0 +1,135 @@
+/* ====== import de fuente ====== */
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wdth,wght@94.8,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(1, 134, 128);
+    font-family: "Tektur", sans-serif;
+    margin: 5%; 
+    line-height: 1.6; /* ====== Separación entre letras ====== */
+}
+
+main{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(28, rgb(17, 2, 34), blue, alpha);
+}
+
+header{
+    text-align: center;
+    color: antiquewhite;
+    padding: 20px 0;
+    border-radius: 8px 8px 0 0;
+    background-image: url(./Multimedia/fondo_perfil3.jpg);
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:exclusion;
+    
+}
+
+header figure img{
+    border-radius: 50%;
+    border: 2px solid  rgb(1, 134, 128);
+    box-shadow: 0px 0px 10px;
+    
+}
+
+header h1{
+    color: orange;
+    font-size: 1.6em;
+}
+header h2{
+    color: gray;
+    font-size: 1.2em;
+    opacity: 0.6;
+}
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: gray;
+}
+
+section{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
+}
+section hr{
+    border:0;
+    height: 2px;
+    background: #0ebaba;
+    margin: 10px 0;
+}
+
+.container{
+    /* ====== contenedor ====== */
+    background-color:antiquewhite;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.container_foto_perfil{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    border: 7px solid rgb(rgb(187, 238, 223), green, blue);
+    box-shadow: 0px 0px 20px rgb(rgb(147, 227, 229), green, blue);
+}
+.container_foto_perfil img{
+    width: 100%;
+    height: auto;
+    display: block;   
+}
+
+.cabecera {
+    position: relative;
+
+}
+.nombre_puesto{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1%;
+    text-shadow: 0px 0px 20px rgb(rgb(147, 227, 229), green, blue);
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 5px 0;
+}
+
+address p{
+    margin: 5px 0;
+}
+
+address a{
+    color:cornflowerblue;
+    text-decoration: none;
+}
+
+i{
+    color:brown;
+    margin-right: 8px;
+}
+
+article{
+    margin-bottom: 15px;
+}
