@@ -7,7 +7,7 @@
 
 }
 body{
-    background-color: rgb(1, 134, 128);
+    background-color: #1E2A32;
     font-family: "Tektur", sans-serif;
     margin: 5%; 
     line-height: 1.6; /* ====== Separación entre letras ====== */
@@ -25,7 +25,7 @@ header{
     color: antiquewhite;
     padding: 20px 0;
     border-radius: 8px 8px 0 0;
-    background-image: url(./Multimedia/fondo_perfil3.jpg);
+    background-image: url(./Multimedia/fondo_perfil.jpeg);
 
     background-size:cover;
     background-repeat: no-repeat;
@@ -42,11 +42,11 @@ header figure img{
 }
 
 header h1{
-    color: orange;
+    color: #1EA6FF;
     font-size: 1.6em;
 }
 header h2{
-    color: gray;
+    color: #7D8E9A;
     font-size: 1.2em;
     opacity: 0.6;
 }
@@ -74,7 +74,7 @@ section hr{
 
 .container{
     /* ====== contenedor ====== */
-    background-color:antiquewhite;
+    background-color:#314451;
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -126,7 +126,7 @@ address a{
 }
 
 i{
-    color:brown;
+    color:#1EA6FF;
     margin-right: 8px;
 }
 
